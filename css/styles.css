@@ -41,6 +41,13 @@ body {
 .meny .meny-item:focus  {
 color: var(--brand-color);
 }
+.meny .meny-item:active  {
+    color: var(--brand-color);
+    }
+
+.meny .meny-item.current{
+    color: var(--brand-color);
+}
 
 .contact .contact-item {
     color: var(--main-color);
@@ -51,6 +58,69 @@ color: var(--brand-color);
 }
 .contact .contact-item:hover {
     color: var(--brand-color);
+}
+.hero {
+    background-color: var(--main-color);
+}
+.hero .hero-title {
+    color: var(--white-color);
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 
 }
 
+.hero .main-button {
+    background-color: var(--brand-color);
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.section-title {
+    color: var(--titel-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+}
+
+.advantages .advantages-title {
+color: var(--titel-color);
+
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
+}
+
+.advantages .advantages-post {
+    color: var(--main-color);
+    
+    line-height: 1.71;
+    }
+  
+.team-title {
+    color: var(--titel-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+
+    }
+
+
+.team-occupation {
+    color: var(--main-color);
+
+    font-size: 16px;
+    line-height: 1.19;
+}
+    
