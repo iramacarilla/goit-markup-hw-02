@@ -1,0 +1,56 @@
+/*#2196F3; #212121-h3, #757575; - p, #FFFFFF; */
+:root{
+    --main-color: #757575;
+    --brand-color: #2196F3;
+    --titel-color: #212121;
+    --white-color: #FFFFFF; 
+}
+body {
+    font-family: Roboto, sant-serif;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+.logo {
+    color: #2196f3;
+
+    font-family: Raleway, sant-serif;
+    font-weight: 700px;
+    font-size: 26px;
+    line-height: 1,19;
+}
+
+.logo-element {
+    color: #2F303A;
+}
+
+.meny .meny-item{
+    color: var(--titel-color);
+
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.meny .meny-item:hover,
+.meny .meny-item:focus  {
+color: var(--brand-color);
+}
+
+.contact .contact-item {
+    color: var(--main-color);
+
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.contact .contact-item:hover {
+    color: var(--brand-color);
+
+}
+
