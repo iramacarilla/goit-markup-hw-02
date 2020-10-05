@@ -4,6 +4,7 @@
     --brand-color: #2196F3;
     --titel-color: #212121;
     --white-color: #FFFFFF; 
+    --button-color: #F5F4FA;
 }
 body {
     font-family: Roboto, sant-serif;
@@ -49,14 +50,14 @@ color: var(--brand-color);
     color: var(--brand-color);
 }
 
-.contact .contact-item {
+/*.contact*/ .contact-item {
     color: var(--main-color);
 
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
-.contact .contact-item:hover {
+/*.contact*/ .contact-item:hover {
     color: var(--brand-color);
 }
 .hero {
@@ -74,7 +75,7 @@ color: var(--brand-color);
 
 }
 
-.hero .main-button {
+.hero button {
     background-color: var(--brand-color);
     color: var(--white-color);
     font-weight: 700;
@@ -123,4 +124,54 @@ text-transform: uppercase;
     font-size: 16px;
     line-height: 1.19;
 }
+    footer {
+        background-color: var(--titel-color);
+    }
+    .footer .logo-element
+    {
+        color: var(--white-color);
+    }
+    .footer p {
+        color: var(--white-color);
+    }
+    address {
+        font-style: normal;
+        line-height: 1.71;
+    }
+
+    button {
+        font-family: inherit;
+    }
+
+    .secondary-button button {
+        background-color: var(--button-color);
+        color: var(--titel-color);
     
+        
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: center;
+    }
+    .secondary-button button:hover {
+        background-color: var(--brand-color);
+        color: var(--white-color);
+    }
+    .secondary-button button.current{
+        background-color: var(--brand-color);
+        color: var(--white-color);
+    }
+
+    .portfolio .portfolio-title {
+        color: var(--titel-color);
+
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+    }
+    .portfolio-post {
+        color: var(--main-color);
+        font-size: 16px;
+        line-height: 1.87;
+    }
