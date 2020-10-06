@@ -50,14 +50,14 @@ color: var(--brand-color);
     color: var(--brand-color);
 }
 
-/*.contact*/ .contact-item {
+.contact-item {
     color: var(--main-color);
 
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
-/*.contact*/ .contact-item:hover {
+.contact-item:hover {
     color: var(--brand-color);
 }
 .hero {
@@ -74,9 +74,10 @@ color: var(--brand-color);
     text-transform: uppercase;
 
 }
-
-.hero button {
+.hero .main-button {
     background-color: var(--brand-color);
+}
+.hero .link {
     color: var(--white-color);
     font-weight: 700;
     font-size: 16px;
