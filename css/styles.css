@@ -130,7 +130,7 @@ text-transform: uppercase;
 }
 /*footer*/
     .footer {
-        background-color: var(--titel-color);
+        background-color: #2F303A;
     }
     .footer .logo-element
     {
@@ -163,10 +163,6 @@ text-transform: uppercase;
     }
     .secondary-button button:hover,
     .secondary-button button:focus {
-        background-color: var(--brand-color);
-        color: var(--white-color);
-    }
-    .secondary-button button.current{
         background-color: var(--brand-color);
         color: var(--white-color);
     }
